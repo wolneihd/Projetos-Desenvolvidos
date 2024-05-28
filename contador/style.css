@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;	 
+}
+
+main {
+	display: inline;
+}
+
+.janela {
+	background-color: #ccffcc;
+	margin-left: 20%;
+	margin-top: 20px;
+	width: 200px;
+	height: 150px;
+	display: grid;
+	text-align:center;
+	font-family: sans-serif;
+	padding: 10px;
+	border-radius: 15px;
+	border: solid;
+	color: green;
+}
+
+p {
+	border: solid;
+	height: 80px;
+	border-radius: 15px;
+	font-size: 60px;
+	padding-top: 10px;
+	color: black;
+}
+
+.botoes {
+	margin-left: 15%;
+	margin-top: 20px;
+	background-color: white;
+	width: 350px;
+	height: 50px;
+	display: inline flex;
+	justify-content: space-around;
+}
+
+.btn {
+	height: 40px;
+	width: 80%;
+	border-radius: 10px;
+	font-size: 15px;
+}
+
+.btn:hover {
+	background-color: #737373;
+	color: white;
+}
+
+footer {
+	margin-left: 15%;
+	font-family: arial;
+	padding-top: 50px;
+}
