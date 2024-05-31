@@ -5,7 +5,7 @@ function criar_tabuada() {
 	let valor = document.getElementById('valor').value;
 	var teste_preenchido = document.getElementById(0);
 	
-	if (teste_preenchido != null) {
+	if (teste_preenchido) {
 		for (i=0;i<=10;i++) {
 			var excluir = document.getElementById(i);
 			excluir.remove();
