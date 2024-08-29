@@ -1,0 +1,33 @@
+body {
+    background-color: lightgray;
+    font-family: monospace;
+}
+
+h1 {
+    background-color: gray;
+    padding: 10px;
+    border-bottom: 1px solid ;
+    color: white;
+}
+
+#api-check {
+    display: flex;
+    gap: 10px;
+    margin: 0;
+}
+
+#all-buttons {
+    margin: 15px;
+}
+
+#tabela table tr th {
+    border: solid 1px black;
+    border-collapse: collapse;
+    background-color: gray;
+    color: white;
+}
+
+#tabela table tr td {
+    border: solid 1px;
+    border-collapse: collapse;
+}

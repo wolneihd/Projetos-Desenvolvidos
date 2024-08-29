@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de usuário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="api-check">
+        <p>API Status: </p>
+        <p id="status"></p>
+    </div>
+
+    <header>
+        <h1>Página de Cadastro</h1>
+    </header>
+
+    <div class="container">
+        <table>
+            <tr>
+                <td>Nome completo:</td>
+                <td>
+                    <input type="text" id="nome">
+                </td>
+            </tr>
+            <tr>
+                <td>Idade</td>
+                <td>
+                    <input type="number" id="idade">
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="all-buttons">
+        <button onclick="insertDataDB()">Salvar</button>
+        <button onclick="cleanField()">Limpar</button>
+        <!-- <button onclick="getAllUsers()">Ver todos</button> -->
+    </div>
+    <div id="tabela">
+        <table id="new-row">
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
